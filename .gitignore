@@ -1,0 +1,38 @@
+# ── Python ──────────────────────────────────────
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+scratch/
+
+# ── Secrets (NEVER push these) ──────────────────
+.env
+.env.*
+!.env.example
+
+# ── Database & data files ────────────────────────
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Frontend ─────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ── Misc ─────────────────────────────────────────
+*.zip
+.DS_Store
+Thumbs.db
+*.log
+WHO-MSD-MER-2017.2-eng.pdf
+nih_heart_smart_basics.pdf
+nih_living_well_with_heart_disease.pdf
+nih_what_is_high_blood_pressure.pdf
